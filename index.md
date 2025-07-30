@@ -8,7 +8,9 @@ title: Home
 
 <img src="./images/krishna.jpeg" alt="Krishna with his flute representing timeless wisdom" width="100%" height="400"/>
 
-> "Sometimes, the most loving thing you can do is let someone face a challenge, because that's how they grow." - A lesson from Krishna
+> "For the soul there is neither birth nor death. It is not slain when the body is slain."
+
+— Sri Krishna, Bhagavad Gita 2.20
 
 ---
 
