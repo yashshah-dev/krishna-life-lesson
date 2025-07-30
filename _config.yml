@@ -1,2 +1,24 @@
-title: Krishna Life Lessons
-theme: Jekyll Book Theme
+title: "Krishna Life Lessons"
+description: "Ancient wisdom for modern living"
+author: "Yash Shah"
+
+# Use a supported GitHub Pages theme
+theme: minima
+
+# Navigation menu
+header_pages:
+  - index.md
+  - chapters/chapter1.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Site settings
+url: "https://yashshah-dev.github.io"
+baseurl: "/krishna-life-lesson"
