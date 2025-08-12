@@ -51,16 +51,18 @@ Learn how Krishna's example teaches us that true love sometimes requires being f
 - How to challenge people you care about in a loving way
 - When to be gentle and when to be firm
 
-[**Start Reading Chapter 1 →**](chapters/chapter1.md)
-
----
-
-### Coming Soon...
-
-#### Chapter 2: Why the Gita Still Matters
+### [Chapter 2: Why the Gita Still Matters](chapters/chapter2.md)
 *Timeless Gita Teachings to Overcome Self-Doubt and Fear*
 
+**Key Insights:**
+- Breakdown is the beginning of growth—embrace challenges as opportunities for transformation
+- You are not your thoughts—learn to observe your fears and doubts without being controlled by them
+- Focus on action, not outcome—commit to your effort and let go of the results
+- Follow your own path (swadharma)—stop comparing and honor your unique journey
+- Surrender is not defeat—let go when logic fails and trust a higher wisdom
+
 ---
+
 
 ## Why These Lessons Matter Today
 
