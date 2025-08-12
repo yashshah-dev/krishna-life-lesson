@@ -9,6 +9,7 @@ theme: minima
 header_pages:
   - index.md
   - chapters/chapter1.md
+  - chapters/chapter2.md
 
 # Plugins
 plugins:
