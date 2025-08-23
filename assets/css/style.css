@@ -4,65 +4,232 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .site-header {
     background-color: #f8f8f8;
     padding: 15px 0;
     border-bottom: 1px solid #e8e8e8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .site-header .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .site-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    flex: 1;
+    min-width: 200px;
 }
 
 .page-content {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Typography improvements */
+h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #666;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 4px;
 }
 
 /* Language Switcher Styles */
+.language-switcher {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 .language-switcher a,
 .language-switcher span {
-    padding: 5px 10px;
-    margin-left: 5px;
+    padding: 8px 12px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline-block;
+    transition: all 0.2s ease;
 }
 
 .language-switcher a {
     color: #007bff;
     border: 1px solid #007bff;
+    background-color: transparent;
 }
 
 .language-switcher a:hover {
     background-color: #007bff;
     color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
 }
 
 .language-switcher span {
-    font-weight: bold;
-    color: #333;
-    border: 1px solid #ccc;
-    background-color: #e9ecef;
+    font-weight: 600;
+    color: white;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .wrapper {
+        padding: 0 15px;
+    }
+    
+    .site-header {
+        padding: 12px 0;
+    }
+    
+    .site-header .wrapper {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .site-title {
+        font-size: 20px;
+        min-width: auto;
+        text-align: center;
+    }
+    
+    .language-switcher {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .language-switcher a,
+    .language-switcher span {
+        padding: 10px 16px;
+        font-size: 14px;
+        min-width: 80px;
+        text-align: center;
+    }
+    
+    .page-content {
+        padding: 15px 0;
+    }
+    
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 12px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    
+    blockquote {
+        padding: 12px 15px;
+        margin: 15px 0;
+        font-size: 15px;
+    }
+    
+    img {
+        margin: 15px auto;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 0 12px;
+    }
+    
+    .site-title {
+        font-size: 18px;
+    }
+    
+    .language-switcher a,
+    .language-switcher span {
+        padding: 8px 12px;
+        font-size: 13px;
+        min-width: 70px;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    blockquote {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
 }
