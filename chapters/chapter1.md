@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 1: When Love Means Being Tough"
+---
+
 # Chapter 1: When Love Means Being Tough
 
 > "Sometimes, the most loving thing you can do is let someone face a challenge, because that's how they grow." - A lesson from Krishna

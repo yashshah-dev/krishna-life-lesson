@@ -1,4 +1,9 @@
 
+---
+layout: default
+title: "Chapter 2: Krishna’s Battlefield Mindset"
+---
+
 # Chapter 2: Krishna’s Battlefield Mindset: How the Gita’s Ancient Tactics Crush Modern Self-Doubt
 
 ---

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+     <div class="language-switcher">
+  {% assign current_path = page.path %}
+  {% if current_path contains '-guj' %}
+    {% assign en_path = current_path | replace: '-guj', '' %}
+    <a href="{{ en_path | replace: '.md', '.html' | relative_url }}">English</a>
+    <span>ગુજરાતી</span>
+  {% else %}
+    {% assign guj_path = current_path | replace: '.md', '-guj.html' %}
+    <span>English</span>
+    <a href="{{ guj_path | relative_url }}">ગુજરાતી</a>
+  {% endif %}
+</div>
+    </div>
+  </header>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+</body>
+</html>

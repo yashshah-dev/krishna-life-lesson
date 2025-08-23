@@ -2,16 +2,11 @@ title: "Krishna Life Lessons"
 description: "Ancient wisdom for modern living"
 author: "Yash Shah"
 
-# Use a supported GitHub Pages theme
-theme: minima
+# GitHub Pages settings
+url: "https://yashshah-dev.github.io"
+baseurl: "/krishna-life-lesson"
 
-# Navigation menu
-header_pages:
-  - index.md
-  - chapters/chapter1.md
-  - chapters/chapter2.md
-
-# Plugins
+# GitHub Pages will automatically use supported plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -20,6 +15,30 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-# Site settings
-url: "https://yashshah-dev.github.io"
-baseurl: "/krishna-life-lesson"
+# Collections and defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Navigation menu
+header_pages:
+  - index.md
+  - chapters/chapter1.md
+  - chapters/chapter2.md
+
+# Language settings
+languages:
+  en:
+    name: "English"
+  gu:
+    name: "ગુજરાતી"
+
+# Exclude files from the site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - README.md
